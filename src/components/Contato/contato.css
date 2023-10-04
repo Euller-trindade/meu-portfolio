@@ -1,0 +1,86 @@
+.dark .nome input,
+.dark .email input,
+.dark .mensagem textarea,
+.dark form button {
+  box-shadow: none;
+  color: #ffffff;
+  background-color: #4f4f4f;
+}
+
+.container__contato {
+  margin-top: 50px;
+  display: flex;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.nome__email {
+  display: flex;
+  gap: 10px;
+}
+.nome,
+.email,
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.nome input,
+.email input {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 20px;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: 7px 7px 14px #9e9e9e, -7px -7px 14px #ffffff;
+}
+.nome input::placeholder,
+.email input::placeholder,
+.mensagem textarea::placeholder {
+  color: #b2b2b2;
+}
+.mensagem textarea {
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: #000000;
+  box-shadow: 7px 7px 14px #9e9e9e, -7px -7px 14px #ffffff;
+}
+.form input:focus,
+textarea:focus {
+  outline: none;
+}
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+  border: none;
+  flex: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+  background-color: #d90429;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.form button:hover {
+  transform: scale(0.9);
+}
+@media (max-width: 450px) {
+  .form label {
+    display: none;
+  }
+  .nome__email {
+    flex-direction: column;
+  }
+}

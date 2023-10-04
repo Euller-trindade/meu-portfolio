@@ -1,0 +1,36 @@
+.dark .card__tecnologia {
+  box-shadow: 6px 6px 12px #000000, -6px -6px 12px #000000;
+  border: 1px solid #1d1d1d;
+  transition: color 0.3s ease;
+}
+
+.container__tecnologias {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+
+.card__tecnologia {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  box-shadow: 6px 6px 12px #898989, -6px -6px 12px #d9d9d9;
+  border-radius: 5px;
+}
+.card__tecnologia:hover {
+  color: #d90429;
+  cursor: pointer;
+}
+.card__tecnologia svg {
+  font-size: 40px;
+}
+.card__tecnologia p {
+  font-weight: bold;
+}

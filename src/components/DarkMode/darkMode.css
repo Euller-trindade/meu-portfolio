@@ -1,0 +1,18 @@
+.dark .dark__mode_btn {
+  box-shadow: none;
+}
+.dark__mode {
+  border-radius: 10px;
+}
+.dark__mode_btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  margin: 0 5px;
+
+  border: none;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  color: rgb(216, 191, 0);
+  cursor: pointer;
+  transition: color 0.3s;
+}
