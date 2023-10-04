@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar/NavBar";
+import NavBar from "./components/NavBar";
 import "./app.css";
 import { AiOutlineDownload, AiOutlineGithub } from "react-icons/ai";
 import { BiCodeAlt, BiSolidMoon } from "react-icons/bi";
@@ -10,9 +10,9 @@ import githubBranco from "./assets/img/github-branco.png";
 import githubPreto from "./assets/img/github-preto.png";
 import curriculo from "./assets/curriculo/euller_trindade.pdf";
 import { useEffect, useState } from "react";
-import CardHabilidades from "./components/CardHabilidades/CardHabilidades";
-import CardProjetos from "./components/CardProjetos/CardProjetos";
-import Contato from "./components/Contato/Contato";
+import CardHabilidades from "./components/CardHabilidades";
+import CardProjetos from "./components/CardProjetos";
+import Contato from "./components/Contato";
 
 function App() {
   const [theme, setTheme] = useState(

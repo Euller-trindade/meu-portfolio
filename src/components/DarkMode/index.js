@@ -1,5 +1,5 @@
 import React from "react";
-import "./darkMode.css";
+import "./style.css";
 const DarkMode = ({ theme, options, setTheme }) => {
   return (
     <div className="dark__mode">

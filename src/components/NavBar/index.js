@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./navBar.css";
-import DarkMode from "../DarkMode/DarkMode";
+import "./style.css";
+import DarkMode from "../DarkMode";
 import { BiCodeAlt } from "react-icons/bi";
 
 function Navbar({ theme, setTheme, options }) {

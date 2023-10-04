@@ -1,5 +1,5 @@
 import React from "react";
-import "./cardHabilidades.css";
+import "./style.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import {
   BiLogoCss3,

@@ -11,7 +11,8 @@
   display: flex;
   align-items: center;
   margin-top: 10px;
-  max-width: 25rem;
+  height: 25rem;
+  width: 400px;
   position: relative;
   transition: 0.8s;
   border-radius: 0.5rem;
@@ -107,6 +108,7 @@
 }
 @media (max-width: 900px) {
   .card {
+    width: 200px;
     height: 15rem;
   }
   .card__info {

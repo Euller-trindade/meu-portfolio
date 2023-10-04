@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./contato.css";
+import "./style.css";
 import emailjs from "@emailjs/browser";
 import { BiSolidSend } from "react-icons/bi";
 
