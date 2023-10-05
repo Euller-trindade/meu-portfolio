@@ -21,7 +21,7 @@
   justify-content: center;
   width: 150px;
   height: 150px;
-  box-shadow: 6px 6px 12px #898989, -6px -6px 12px #d9d9d9;
+  box-shadow: 6px 6px 12px #b2b2b2a8, -6px -6px 12px #d9d9d9;
   border-radius: 5px;
 }
 .card__tecnologia:hover {

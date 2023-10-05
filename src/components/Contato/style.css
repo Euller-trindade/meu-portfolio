@@ -6,6 +6,11 @@
   color: #ffffff;
   background-color: #4f4f4f;
 }
+.dark .nome input::placeholder,
+.dark .email input::placeholder,
+.dark .mensagem textarea::placeholder {
+  color: #bbbbbb;
+}
 
 .container__contato {
   margin-top: 50px;
@@ -37,12 +42,12 @@
   padding: 10px;
   color: #000000;
   font-weight: bold;
-  box-shadow: 7px 7px 14px #9e9e9e, -7px -7px 14px #ffffff;
+  box-shadow: 7px 7px 14px #b2b2b2a8, -7px -7px 14px #ffffff;
 }
 .nome input::placeholder,
 .email input::placeholder,
 .mensagem textarea::placeholder {
-  color: #b2b2b2;
+  color: #747474;
 }
 .mensagem textarea {
   border: none;
@@ -51,7 +56,7 @@
   padding: 10px;
   width: 100%;
   color: #000000;
-  box-shadow: 7px 7px 14px #9e9e9e, -7px -7px 14px #ffffff;
+  box-shadow: 7px 7px 14px #b2b2b2a8, -7px -7px 14px #ffffff;
 }
 .form input:focus,
 textarea:focus {

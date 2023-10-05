@@ -48,7 +48,7 @@ li {
   height: 10vh;
   width: 100%;
   z-index: 999;
-  box-shadow: 5px 5px 10px #888888a4;
+  box-shadow: 5px 5px 10px #b2b2b2a8;
 }
 .nav a span {
   color: #d90429;

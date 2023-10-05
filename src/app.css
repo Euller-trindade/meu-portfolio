@@ -101,7 +101,7 @@
   width: 320px;
   border-radius: 50%;
   border: 1px solid #e8e8e8;
-  box-shadow: 6px 6px 12px #898989, -6px -6px 12px #ffffff;
+  box-shadow: 6px 6px 12px #b2b2b2, -6px -6px 12px #ffffff;
 }
 .mais__info_curriculo,
 .mais__info_github {
@@ -112,8 +112,8 @@
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
-
-  box-shadow: 6px 6px 12px #898989, -6px -6px 12px #ffffff;
+  font-weight: 500;
+  box-shadow: 6px 6px 12px #b2b2b2a8, -6px -6px 12px #ffffff;
 }
 .mais__info_curriculo:hover,
 .mais__info_github:hover {
@@ -133,8 +133,6 @@
 }
 .sobre__text {
   display: flex;
-  background-color: #ffffff;
-  box-shadow: 6px 6px 12px #898989, -6px -6px 12px #d9d9d9;
   font-weight: bold;
   border-radius: 10px;
   flex-direction: column;
