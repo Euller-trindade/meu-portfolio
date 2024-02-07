@@ -1,4 +1,3 @@
-import NavBar from "./components/NavBar";
 import "./app.css";
 import { AiOutlineDownload, AiOutlineGithub } from "react-icons/ai";
 import { BiCodeAlt, BiSolidMoon } from "react-icons/bi";
@@ -11,6 +10,7 @@ import githubPreto from "./assets/img/github-preto.png";
 import curriculo from "./assets/curriculo/euller_trindade.pdf";
 import { useEffect, useState } from "react";
 import CardHabilidades from "./components/CardHabilidades";
+import NavBar from "./components/NavBar";
 import CardProjetos from "./components/CardProjetos";
 import Contato from "./components/Contato";
 
@@ -46,7 +46,6 @@ function App() {
         break;
     }
   }, [theme]);
-
   return (
     <div className={` ${theme === "dark" ? "dark" : " light"}`}>
       <NavBar theme={theme} setTheme={setTheme} options={options} />
@@ -84,12 +83,11 @@ function App() {
         </section>
         <section className="sobre__text">
           <p>
-            Olá, me chamo Euller! Atualmente tenho 23 anos, sou uma pessoa
-            apaixonada por tecnologia, animes e jogos, amo conhecer novas
-            pessoas e fazer amizades. em <span>novembro de 2021</span> iniciei
-            meus estudos em
-            <span> desenvolvimento front-end</span> e estou em busca de uma
-            oportunidade para colaborar com minhas hards e softwares skills.
+            Olá, sou Euller. Estou estudando desenvolvimento front-end há mais
+            de dois anos. Atualmente, estou cursando análise e desenvolvimento
+            de sistemas na Descomplica, faculdade digital. Além disso, estou
+            estudando inglês para que, dessa forma, possa ter um desempenho
+            melhor e atender às necessidades do mercado.
           </p>
         </section>
       </div>

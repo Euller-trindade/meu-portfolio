@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { BiLogoGithub, BiGlobe } from "react-icons/bi";
-import jokenpo from "../../assets/img/JO-KEN-PÔ.png";
+import rotaBike from "../../assets/img/rotabike.png";
 import photoEditor from "../../assets/img/photo-editor.png";
 import rocketpay from "../../assets/img/rocketpay.png";
 import multistap from "../../assets/img/mult-form.png";
@@ -13,18 +13,18 @@ const CardProjetos = () => {
     <div className="container__cards">
       <div className="card">
         <div className="card__img_wrapper">
-          <img src={jokenpo} alt="imagem do projeto ToDo" />
+          <img src={rotaBike} alt="imagem do projeto ToDo" />
         </div>
         <div className="card__info">
-          <h2>JO KEN PÔ</h2>
-          <h3>HTML, CSS, Javascript.</h3>
-          <p>
-            Jogo de Jo ken pô desenvolvido ultilizando html, css e Javascript.
-            Nele você pode jogar contra a própria máquina.
-          </p>
+          <h2>ROTABIKE</h2>
+          <h3>
+            React js, React image zooom, React spinners, Swiper, Framer motion e
+            Material-UI.
+          </h3>
+          <p>Uma loja online de bicicletas</p>
           <div className="container__btn">
             <a
-              href="https://euller-trindade.github.io/JO-KEN-P-/"
+              href="https://rota-bike.vercel.app/"
               className="cust_btn botao"
               target="_blank"
               rel="noreferrer"
@@ -32,7 +32,7 @@ const CardProjetos = () => {
               <BiGlobe /> Website
             </a>
             <a
-              href="https://github.com/Euller-trindade/JO-KEN-P-"
+              href="https://github.com/Euller-trindade/RotaBike"
               className="cust_btn botao"
               target="_blank"
               rel="noreferrer"

@@ -30,9 +30,9 @@
 .apresentacao {
   display: flex;
   height: 100vh;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
-  padding: 100px;
   flex-wrap: wrap;
 }
 .apresentacao__info_h2 {
@@ -144,9 +144,7 @@
 .sobre__text p {
   letter-spacing: 0.1rem;
 }
-.sobre__text p span {
-  color: #d90429;
-}
+
 .sections__header {
   display: flex;
   align-items: center;

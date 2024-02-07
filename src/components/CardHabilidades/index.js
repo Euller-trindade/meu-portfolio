@@ -12,6 +12,7 @@ import {
   BiLogoGit,
 } from "react-icons/bi";
 import { SiStyledcomponents } from "react-icons/si";
+
 const CardHabilidades = () => {
   return (
     <div className="container__tecnologias">
