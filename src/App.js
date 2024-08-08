@@ -115,7 +115,7 @@ function App() {
           <h4>Ficou interessado(a) ? Entre em contato comigo!</h4>
           <div className="redes">
             <a
-              href="https://api.whatsapp.com/send?phone=5579998438276"
+              href="https://api.whatsapp.com/send?phone=5575998778582"
               target="_blank"
               rel="noreferrer"
             >
