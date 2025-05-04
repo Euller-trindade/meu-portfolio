@@ -84,7 +84,7 @@ function App() {
         <section className="sobre__text">
           <p>
             Olá, sou Euller. Estou estudando desenvolvimento front-end há mais
-            de dois anos. Atualmente, estou cursando análise e desenvolvimento
+            de três anos. Atualmente, estou cursando análise e desenvolvimento
             de sistemas na Descomplica, faculdade digital. Além disso, estou
             estudando inglês para que, dessa forma, possa ter um desempenho
             melhor e atender às necessidades do mercado.
